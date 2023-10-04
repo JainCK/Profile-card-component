@@ -3,33 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="description" content="Profile card component using HTML and CSS for frontend Mentor">
+  <link rel="stylesheet" href="./Style/style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Profile card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-  Victor Crest
-  26
-  London
+  <main>
+    <div class="top bg">
+      <img src="./images/bg-pattern-top.svg" alt="top-bg">
+    </div>
+    <div class="bottom bg">
+      <img src="./images/bg-pattern-bottom.svg" alt="bottom.bg">
+    </div>
+    <div id="card">
+        <div class="card-bg">
+            <img src="images/bg-pattern-card.svg">
+            <img src="images/image-victor.jpg" id="profile-pic" alt="victor's profile picture">
+        </div>
+        <div class="card-text">
+            <div id="profile-details">
+                <h2>Victor Crest <span id="age">26</span></h2>
+                <h3 id="state">London</h3>
+            </div>
+            <hr />
+            <div class="card-details">
+                <div class="prop">
+                    <h3 class="count">80K</h3>
+                    <h5 class="count-obj">Followers</h5>
+                </div>
+                <div class="prop">
+                    <h3 class="count">803K</h3>
+                    <h5 class="count-obj">Likes</h5>
+                </div>
+                <div class="prop">
+                    <h3 class="count">1.4K</h3>
+                    <h5 class="count-obj">Photos</h5>
+                 </div>
 
-  80K
-  Followers
-
-  803K
-  Likes
-
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+            </div>
+        </div> 
+    </div>        
+</main>
 </body>
 </html>
