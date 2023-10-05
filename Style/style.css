@@ -41,7 +41,10 @@ hr {
     transform: translate(-50%, -50%);
 }
 
-.bottom { position: relative; }
+.bottom { 
+    position: relative; 
+}
+
 .bottom > img {
     position: absolute;
     right: 0;
