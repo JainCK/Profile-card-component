@@ -47,6 +47,9 @@ hr {
 
 .bottom > img {
     position: absolute;
+}
+
+.bottom > img {
     right: 0;
     bottom: 0;
     transform: translate(50%, 50%);
